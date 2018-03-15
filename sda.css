@@ -1,0 +1,243 @@
+body
+{
+	margin: 0;
+}
+
+
+h2{
+	color: #800000;
+	font-size: 40px;
+}
+
+img {
+/*	padding: 1px;
+	margin-left: 5px;
+	font-size: 50px;
+
+
+	height: 400px;
+	width: 400px;*/
+}
+
+p{
+	font-family: 'Anaheim';
+	font-size: 20px;
+	color:black ;
+}
+.center{
+
+	border-style:solid;
+	border-width: 5px;
+	border-color: #800000;	 
+}
+.Languages
+{
+	margin-left: 100px;
+	font-size: 50px;
+	color: #800000;
+}
+.imagetext
+{
+	color: #82;
+}
+.navbar
+{
+	display: flex;
+	padding: -20px 30px;
+	list-style-type: none;
+	font-size: 64px;
+	justify-content: space-evenly;
+	/*justify-content: flex-end;*/
+	
+}
+
+#title
+{
+	color: black;
+	justify-content: flex-start;
+}
+
+
+.clearfix {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 350px;
+}
+
+.clearfix > img {
+	display: inline-block;
+	margin-right: 230px;
+
+
+}
+
+
+footer {
+	align-items: stretch;
+
+	background-color: #3a3a3a;
+	height: -20px;
+	width: 100%;
+}
+.fa {
+	
+ 	 padding: 20px;
+	  font-size: 30px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	  border-radius: 50%;
+	}
+.fa-facebook 
+	{
+	  background: #3B5998;
+	  color: white;
+	}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.smi {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+button {
+	background: none;
+	font-family: 'Bungee Hairline';
+	border: 1px solid #0E1168;
+	padding: 10px 10px;
+	border-radius: 12px;
+	color: #800000;
+	font-size: 30px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+
+}
+ul> li {
+
+	font-family: 'impact';
+	list-style-type: none;
+
+}
+.Education:hover{
+	background-color: #dcd9cd;
+	color: #000080;
+}
+.Works:hover{
+	background-color: #dcd9cd;
+	color: #000080;
+}
+.Skills:hover{
+	background-color: #dcd9cd;
+	color: #000080;
+}
+.Contacts:hover{
+	background-color: #dcd9cd;
+	color: #000080;
+}
+.name {
+	padding: 100 100px;
+	margin-right: auto;
+}
+
+.text1 {
+
+	font-family: 'Anaheim';
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+.text2
+{
+	display: flex;
+	font-family: 'Bungee Hairline';
+	font-size: 50px;
+	color: #800000;
+	justify-content: center;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+#Education 
+{
+ 	display: flex;
+ 	justify-content: center;
+
+}
+#Works
+{
+	
+	display: flex;
+	justify-content: center;
+}
+.eduimg{
+	
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.eduimg img {
+	margin-top: 160px;
+	margin-bottom: 175px;
+	height: 200px;
+	width: 300px;
+}
+
+#aiu{
+	width: 350px;
+}
+.myname {
+	margin-top: 300px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: flex-start;
+
+	color: white;
+	font-family: 'Sofia'
+}
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	padding: 0 4px;
+
+}
+.column 
+
+{
+	display: flex;
+	justify-content: center;
+
+}
+.column img {
+	padding: 100 100px;
+	margin-top: 8px;
+	vertical-align: middle;
+}
+footer 
+{
+	padding:
+}
+#adress
+{
+	color: #dcd9cd;
+	font-family: 'Anaheim';
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 800px;
+}
